@@ -1,11 +1,4 @@
-body {
-      font-family: Arial, sans-serif;
-      background-image: linear-gradient(180deg, #8389d6,#9f5b7768);
-      text-align: center;
-    }
-    h2 {
-      margin: 20px 0;
-    }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -29,4 +22,5 @@ body {
       height: 250px;
       object-fit: cover;
       display: block;
+
     }
